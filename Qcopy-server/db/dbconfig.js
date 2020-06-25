@@ -8,7 +8,7 @@ const config = {
         USERNAME: '',
         PASSWORD: '',
         PORT: '',
-        HOST: '152.136.212.73'
+        HOST: ''
     }
 }
 
