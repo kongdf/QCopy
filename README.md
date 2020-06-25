@@ -1,5 +1,6 @@
 # QuickCopy
-一款快速复制的小工具；目前已支持mac/win/web； 
+快速复制小工具；  
+目前已支持mac/win/web； 
 
 在线地址:[QuickCopy](http://quickcopy.kongdf.com)
 
