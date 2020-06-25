@@ -5,7 +5,7 @@
 
 ## 技术栈
 
-前端:Electron + Vue
+前端:Electron + Vue  
 服务端:koa + mysql
 
 ## 功能列表
