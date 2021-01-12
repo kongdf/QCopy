@@ -96,7 +96,7 @@
                     cancelButtonText: '取消',
                     // type: 'warning'
                 }).then(() => {
-                    fetch('http://quickcopy.kongdf.com:3000/sentcon/SentconDel', {
+                    fetch('http://qc.kongdf.com:3000/sentcon/SentconDel', {
                         method: 'post',
                         body: JSON.stringify({
                             sentId: sent.id,
@@ -119,7 +119,7 @@
             },
             EditPre() {
                 let self = this;
-                fetch('http://quickcopy.kongdf.com:3000/sentcon/SentconEdit', {
+                fetch('http://qc.kongdf.com:3000/sentcon/SentconEdit', {
                     method: 'post',
                     body: JSON.stringify({
                         sentcon: self.EditPreSent.con,
@@ -140,7 +140,7 @@
             Search() {
                 let self = this
 
-                fetch('http://quickcopy.kongdf.com:3000/sentcon/SentconList', {
+                fetch('http://qc.kongdf.com:3000/sentcon/SentconList', {
                     method: 'post',
                     body: JSON.stringify({
                         keyword: self.SearchKey,
@@ -163,7 +163,7 @@
                     self.$message.error('请添加内容');
                     return
                 }
-                fetch('http://quickcopy.kongdf.com:3000/sentcon/addSentcon', {
+                fetch('http://qc.kongdf.com:3000/sentcon/addSentcon', {
                     method: 'post',
                     body: JSON.stringify({
                         sentcon: self.AddPreCon,

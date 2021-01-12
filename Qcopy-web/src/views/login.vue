@@ -79,7 +79,7 @@
           return
         }
 
-        fetch('http://quickcopy.kongdf.com:3000/users/userLogin', {
+        fetch('http://qc.kongdf.com:3000/users/userLogin', {
           method: 'post',
           body: JSON.stringify({
             username: self.UserName,
@@ -128,7 +128,7 @@
         }
 
 
-        fetch('http://quickcopy.kongdf.com:3000/users/addUserData', {
+        fetch('http://qc.kongdf.com:3000/users/addUserData', {
           method: 'post',
           body: JSON.stringify({
             username: self.ResPreson.UserName,
@@ -150,7 +150,7 @@
         if (this.ResPreson.UserName.length < 5) {
 
         } else {
-          fetch('http://quickcopy.kongdf.com:3000/users/isusername', {
+          fetch('http://qc.kongdf.com:3000/users/isusername', {
             method: 'post',
             body: JSON.stringify({
               username: self.ResPreson.UserName
